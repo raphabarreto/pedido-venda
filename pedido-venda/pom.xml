@@ -27,6 +27,7 @@
 				<version>3.0</version>
 				<configuration>
 					<driver>com.mysql.jdbc.Driver</driver>
+					<outOfOrder>true</outOfOrder> <!-- permite execução das migrations fora de ordem -->
 				</configuration>
 			</plugin>
 		</plugins>
